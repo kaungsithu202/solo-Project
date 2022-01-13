@@ -94,9 +94,29 @@ $(document).ready(function () {
 });
 
 //Stats Counter
+// $(document).ready(function () {
+// 	$('.counter').counterUp({
+// 		delay: 10,
+// 		time: 1000,
+// 	});
+// });
+
+// Client Section
 $(document).ready(function () {
-	$('.counter').counterUp({
-		delay: 10,
-		time: 1000,
+	$('.client-list').owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			// 600: {
+			// 	items: 3,
+			// },
+			1000: {
+				items: 5,
+			},
+		},
 	});
 });

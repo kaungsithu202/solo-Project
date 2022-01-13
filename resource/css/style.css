@@ -32,6 +32,9 @@ footer {
 .content-box-md {
 	padding: 100px 0;
 }
+.content-box-sm {
+	padding: 90px 0;
+}
 /* *Vertical HEading */
 
 .vertical-heading h5 {
@@ -817,4 +820,21 @@ ul.social-list li:nth-child(3) a:hover {
 	-moz-transform: translateY(-20px);
 	-ms-transform: translateY(-20px);
 	-o-transform: translateY(-20px);
+}
+
+/* Client Section */
+#client .horizontal-heading {
+	margin-bottom: 30px;
+}
+.client-list {
+	padding-top: 45px;
+}
+.client {
+	padding: 0 10px;
+	max-width: 150px;
+	margin: 0 auto;
+	line-height: 100px;
+}
+.client img {
+	display: inline-block !important;
 }
